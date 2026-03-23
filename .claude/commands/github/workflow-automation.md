@@ -84,7 +84,7 @@ jobs:
 name: Intelligent Security Scan
 on:
   schedule:
-    - cron: '0 0 * * *'
+    #- cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
